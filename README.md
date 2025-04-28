@@ -18,6 +18,6 @@ The application has been configured to be hosted on the following AWS cloud serv
 - AWS ECS instance
 
 ## Course information
-Course title: React - The complete Guide 2025 (incl. Next.js, Redux)
-Author: Maximilian Schwarzmüller
+Course title: React - The complete Guide 2025 (incl. Next.js, Redux) <br />
+Author: Maximilian Schwarzmüller <br />
 Link: https://www.udemy.com/share/101Way3@ouPGrLCHE1IacPt_cD8GSRlmz5MNeNiEbpTlf_GA4s5RNlAe_Hy9PabXi3ko94PN/
