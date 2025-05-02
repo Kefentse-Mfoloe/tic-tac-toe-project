@@ -5,23 +5,12 @@ const initialGameBoard = [
 ];
 
 export default function GameBoard({ onSelectSquare, turns }) {
-  // const [gameBoard, setGameBoard] = useState(initialGameBoard);
-
-  // function handleSelectSquare(rowIndex, columnIndex) {
-  //     setGameBoard((prevGameBoard) => {
-  //         const newGameBoard = [...prevGameBoard].map(row => [...row]);
-  //         newGameBoard[rowIndex][columnIndex] = activePlayerSymbol;
-  //         return newGameBoard;
-  //     });
-
-  //     onSelectActivePlayer();
-  // }
   let gameBoard = initialGameBoard;
 
   for (const turn of turns) {
     const { square, player } = turn;
-    const [rowIndex, columnIndex] = square;
-    gameBoard[rowIndex][columnIndex] = player;
+    const { row, col } = square;
+    gameBoard[row][col] = player;
   }
 
   return (
